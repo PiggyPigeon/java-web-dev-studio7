@@ -1,6 +1,6 @@
 package org.launchcode.studio7;
 
-public class DVD extends BaseDisc implements  OpticalDisc {
+public class DVD extends BaseDisc implements OpticalDisc{
 
     public DVD(String aName, int maxCapacity, String aType, int someUsedCapacity) {
         super(aName, maxCapacity, aType, someUsedCapacity);
